@@ -10,8 +10,8 @@ Essa é uma loja B2C.
 - [Estrutura de pastas](#estrutura-de-pastas)
 - [Instalação](#instala%C3%A7%C3%A3o)
 - [Release e deploy](#release-e-deploy)
-- [Apps Custom](apps-custom)
-- [FAQ](faq.md)
+- [Apps Custom](#apps-custom)
+- [FAQ](#faq.md)
 
 ## Requisitos
 
