@@ -1,0 +1,97 @@
+.customFaq-containerQuestions {
+  height: 88px;
+  position: relative;
+
+  @include mq("768") {
+    height: 48px;
+  }
+
+  overflow: hidden;
+  margin-bottom: 16px;
+  padding: 0 16px;
+  @include border-radius();
+  border: 1px solid $light-gray-06;
+
+
+  &.customFaq-containerQuestions--Active {
+    height: auto;
+
+    .customFaq-containerQuestion {
+      pointer-events: auto;
+      opacity: 1;
+      transform: none;
+      height: auto;
+      transition: 0.2s;
+    }
+
+    .customFaq-QuestionsTitle {
+      @include textConfig($blue, 14, $fontSemiBold, 17.07, left, initial, 1);
+
+    }
+
+    .customFaq-QuestionsTitleContent {
+      :first-child {
+        margin-bottom: 0;
+      }
+    }
+
+    .customFaq-icon {
+      transform: rotate(180deg);
+      fill: transparent;
+      max-width: 16px;
+      max-height: 16px;
+      transition: 0.3s;
+      background: url("data:image/svg+xml;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAGCAYAAAD68A/GAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAACxMAAAsTAQCanBgAAACPSURBVBhXY5Qym17PyMgY8Jfxf+CLE5kPGJCAgMN8Ae7vP9b/Z2B4wPSf4b8BCAMZ+yUspitA1YAVcX3/uR+oyAGEGQUM+gU42Tn3MwIVA+Uf/GNkcPzBwfEBpIgBbAjDg/8/fzgygnWjKWZgYPyArOjFhcIHYIUggKaYAVkRiA9XCAIwxUBlAsiKGBgYGACD6UvfyiovIQAAAABJRU5ErkJggg==") !important;
+      background-position: center !important;
+      background-repeat: no-repeat !important;
+    }
+  }
+
+  .customFaq-QuestionsTitle {
+    @include textConfig($dark-gray, 14, $fontSemiBold, 17.07, left, initial, 1);
+    @include display-flex();
+    gap: 10px;
+    margin: 0;
+    cursor: pointer;
+
+    .customFaq-icon {
+      fill: transparent;
+      max-width: 16px;
+      max-height: 16px;
+      transition: 0.3s;
+      background: url("data:image/svg+xml;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAGCAYAAAD68A/GAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABrSURBVHgBbc0BDYAwDATAFgU4AAdsDrCCE6TgAAnDwSoBlJQ+GaQsa9JkWa9fDiEkIhqZec45X+Qqxjip6mHPtQNC48MGQwP1T5AlAqaycCIZQ4c2EVkY2zUu4EMw/J6qMHn0gw7v1uIR6gag2C1lUZkasAAAAABJRU5ErkJggg==");
+      background-position: center;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 15px;
+      right: 16px;
+
+      @include mq("1024") {
+        position: unset;
+      }
+    }
+  }
+
+  .customFaq-containerQuestion {
+    opacity: 0;
+    transform: scaleY(0);
+    overflow: hidden;
+    pointer-events: none;
+    transform-origin: top;
+    transition: 0.2s;
+    overflow: hidden;
+    height: 0;
+
+
+
+    .customFaq-ResponseText {
+      @include textConfig($dark-gray-01, 14, $fontRegular, 14, left, initial, 1);
+      margin: 19px 0 15px 0;
+
+
+      :first-child {
+        margin: 0;
+      }
+    }
+  }
+}

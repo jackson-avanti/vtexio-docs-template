@@ -1,0 +1,33 @@
+.containerFlag {
+  width: 100%;
+  height: 33px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #fff4df;
+  border-radius: 6px;
+}
+
+.classTextFlag {
+  color: #ff7a00;
+
+  font-size: 12px;
+  font-weight: 700;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3.21px;
+}
+
+.classTextFlag::before {
+  content: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyLjggNS42QzEyLjcxOTQgNC42NDkyNiAxMi4zMjUzIDMuNzUyMjMgMTEuNjc5NCAzLjA0OTlDMTEuMDMzNiAyLjM0NzU3IDEwLjE3MjcgMS44Nzk3NiA5LjIzMTk4IDEuNzJDOS4yNzk5NyAxLjE2OCA5LjIyMzk4IDAgNy45OTk5OCAwQzYuNzc1OTggMCA2LjcxOTk4IDEuMTY4IDYuNzY3OTggMS43MkM1LjgyNzMgMS44Nzk3NiA0Ljk2NjM4IDIuMzQ3NTcgNC4zMjA1MiAzLjA0OTlDMy42NzQ2NyAzLjc1MjIzIDMuMjgwNSA0LjY0OTI2IDMuMTk5OTggNS42TDMuMTk5OTggMTAuNEwxLjU5OTk4IDEyVjEyLjhMMTQuNCAxMi44VjEyTDEyLjggMTAuNEwxMi44IDUuNlpNNy45OTk5OCAxNkM4LjYzNjQ5IDE2IDkuMjQ2OTQgMTUuNzQ3MSA5LjY5NzAzIDE1LjI5NzFDMTAuMTQ3MSAxNC44NDcgMTAuNCAxNC4yMzY1IDEwLjQgMTMuNkw1LjU5OTk4IDEzLjZDNS41OTk5OCAxNC4yMzY1IDUuODUyODMgMTQuODQ3IDYuMzAyOTIgMTUuMjk3MUM2Ljc1MzAxIDE1Ljc0NzEgNy4zNjM0NiAxNiA3Ljk5OTk4IDE2WiIgZmlsbD0iI0ZGN0EwMCIvPgo8L3N2Zz4K');
+}
+
+@media (max-width: 1024px) {
+  .classTextFlag {
+    gap: 7px;
+  }
+}
