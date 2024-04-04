@@ -1,3 +1,0 @@
-import buyBoxPrescriptionWarning from './components/PrescriptionWarning/buyBoxPrescriptionWarning'
-
-export default buyBoxPrescriptionWarning
