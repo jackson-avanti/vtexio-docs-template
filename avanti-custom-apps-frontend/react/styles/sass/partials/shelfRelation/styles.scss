@@ -1,0 +1,28 @@
+.sliderLayoutContainer {
+
+  .slideChildrenContainer {
+    padding: 0 5px;
+
+    :global(.vtex-product-summary-2-x-element) {
+      border-radius: 17px;
+      padding: 7px 7px 8px;
+      border: 1px solid $light-gray-06;
+
+      @include mq('1026') {
+        border-color: transparent;
+        margin: 3px;
+
+        @include transition();
+      }
+    }
+
+    &:hover {
+      :global(.vtex-product-summary-2-x-element) {
+        border-color: $light-gray-07;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.35);
+      }
+
+    }
+  }
+
+}

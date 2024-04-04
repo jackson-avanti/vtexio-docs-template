@@ -1,0 +1,38 @@
+.formContainer {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 22px;
+    flex-direction: column;
+
+    .freteText {
+        @include textConfig($black, 14, $fontRegular, 21, left, initial, 0);
+    }
+
+    .freeShippingLabel {
+        display: flex;
+        flex-direction: column-reverse;
+
+        .freeShippingBarContainer {
+            margin-top: 8px;
+            height: 4px;
+            width: 100%;
+            background: $blue-03;
+            border-radius: 8px;
+
+
+            .freeShippingBarLine {
+                background-color: $red;
+                border-radius: 8px 0 0 8px;
+                height: 4px;
+                display: block;
+                position: relative;
+            }
+
+            .freeShippingBarIcon {
+                position: absolute;
+                top: -7px;
+                right: -2px;
+            }
+        }
+    }
+}

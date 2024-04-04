@@ -1,0 +1,115 @@
+.slick-list,
+.slick-slider,
+.slick-track {
+  position: relative;
+  display: block;
+}
+.slick-loading .slick-slide,
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+.slick-slider {
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+}
+
+.slick-list {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1272px;
+  width: 100%;
+}
+.slick-list:focus {
+  outline: 0;
+}
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+.slick-slider .slick-list,
+.slick-slider .slick-track {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.slick-track {
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+}
+.slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+[dir='rtl'] .slick-track {
+  flex-direction: row-reverse;
+}
+.slick-slide img {
+  display: block;
+}
+.slick-slider ul {
+  display: flex !important;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  bottom: unset;
+  margin: 0;
+  position: relative;
+  z-index: 3;
+  padding: 0;
+}
+.slick-slider ul li button {
+  font-size: 0;
+  border: none;
+  background-color: #cacbcc;
+  border-radius: 8px;
+  padding: 4px;
+}
+.slick-slider ul li.slick-active button {
+  background-color: #1a3797;
+}
+.slick-slide.slick-loading img {
+  display: none;
+}
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+.slick-initialized .slick-slide {
+  display: block;
+}
+.slick-initialized:nth-child(2) {
+  display: none;
+}
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+  display: none;
+}
+@media (min-width: 1023px) {
+  .slick-slider ul {
+    gap: 8px;
+    bottom: 2rem;
+  }
+  .slick-slider ul li button {
+    padding: 5px;
+  }
+}
+/*# sourceMappingURL=slick.min.css.map */

@@ -1,0 +1,61 @@
+.containerSkuVariable {
+  .titleSkuVariable {
+    @include textConfig($black, 14, $fontBold, 16);
+    margin: 0 0 9.5px;
+  }
+
+  .containerListSku {
+    @include display-flex();
+    justify-content: flex-start;
+    gap: 8px;
+    padding: 0;
+    margin: 9.5px 0 21.5px;
+
+    list-style: none;
+  }
+
+  .containerItemSku {
+    @include size(40px);
+    @include display-flex();
+    background-color: $white;
+
+    border: 1px solid $light-gray-06;
+    border-radius: 8px;
+  }
+
+  .textSkuVariable {
+    @include textConfig($dark-gray, 12, $fontBold, 16);
+  }
+
+  .haveQuantity {
+    @include display-flex();
+    @include size(100%);
+
+    text-decoration: none;
+    height: 100%;
+  }
+
+  .emptyQuantity {
+    @include display-flex();
+    @include size(100%);
+    text-decoration: none;
+    position: relative;
+    cursor: not-allowed;
+
+    &::after {
+      position: absolute;
+      content: '';
+      height: 61px;
+      width: 1px;
+      background-color: $light-gray-06;
+
+      transform: rotate(45deg);
+    }
+
+    .textSkuVariable {
+      color: $light-gray-06;
+    }
+
+  }
+
+}

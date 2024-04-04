@@ -1,0 +1,44 @@
+.backToTop {
+  position: fixed;
+  right: 10px;
+  bottom: 160px;
+  z-index: 10;
+  border-radius: 100px;
+  background: $blue;
+  border: none;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @include size(32px);
+  @include transition();
+
+  @include mq('1024') {
+    bottom: 50px;
+    right: 16px;
+  }
+
+  @include mq('1400') {
+    right: calc((100% - 1260px) / 2);
+    transform: translate(calc(100% + 18px), 0);
+  }
+
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &--hidden {
+    opacity: 0;
+  }
+
+  &--visible {
+    opacity: 1;
+    cursor: pointer;
+  }
+
+  :global(.vtex-store-components-3-x-imageElement) {
+    display: block;
+  }
+}

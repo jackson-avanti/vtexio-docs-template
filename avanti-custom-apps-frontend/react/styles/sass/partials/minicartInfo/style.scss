@@ -1,0 +1,74 @@
+.cm-wrapper-minicart-mobile {
+  position: fixed;
+  bottom: 84px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $white;
+  padding: 10px 21px 15px 32px;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0px -5px 8px -9px rgba(0, 0, 0, 0.48);
+  z-index: 20;
+
+  .cm-text {
+    width: 45%;
+    @include textConfig($dark-gray-07, 12, $fontMedium, 18, left, initial, 0);
+  }
+
+  .currencyContainer {
+    @include textConfig($dark-gray-07, 16, $fontBold, 18, left, initial, 0);
+  }
+
+  .cm-text-qty {
+    @include textConfig($dark-gray-07, 12, $fontRegular, 18, left, initial, 0);
+  }
+
+  .cm-button {
+    @include size(50%, 40px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    @include textConfig($white, 14, $fontBold, 20, center, initial, 0);
+    background-color: $blue;
+    border: none;
+    border-radius: 100px;
+    font-family: $primaryFont;
+  }
+}
+
+.cm-wrapper-minicart-desktop {
+  background-color: $white;
+  border-radius: 14px;
+  padding: 0 8.5px;
+  @include size(100%, 47px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+
+  .cm-wrapper-texts {
+    display: flex;
+    flex-direction: column;
+    padding-left: 4px;
+  }
+
+  .currencyContainer {
+    @include textConfig($blue, 14, $fontBold, 16, left, initial, 0);
+    font-family: $primaryFont;
+  }
+
+  .cm-text-qty {
+    @include textConfig($blue, 12, $fontRegular, 16, left, initial, 0);
+    font-family: $primaryFont;
+  }
+}
+
+.cm-container-minicart-desktop {
+  :global(.vtex-minicart-2-x-minicartWrapperContainer) {
+    display: none;
+  }
+}
