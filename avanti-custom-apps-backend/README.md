@@ -80,7 +80,7 @@ Se esse candidato a release estiver estável, faça o deploy com o comando `vtex
 
 Estas são rotas expostas por este app. Podem ser chamadas por Apps frontend ou outros Apps backend. Estão em order alfabética, com a URL e exemplo de uso.
 
-_Para uma visão detalhada das requisições veja:_ [Rotas REST](/docs/rest)
+_Para uma visão detalhada das requisições veja:_ [Rotas REST](/docs/rest.md)
 
 #### GET
 
@@ -121,7 +121,7 @@ _Para uma visão detalhada das requisições veja:_ [Rotas REST](/docs/rest)
 
 ## Queries GraphQL
 
-Este aplicativo expõe Queries GraphQL, [Veja mais detalhes aqui](/avanti-custom-apps-backend/docs/graphql/).
+Este aplicativo expõe Queries GraphQL, [Veja mais detalhes aqui](/avanti-custom-apps-backend/docs/graphql.md).
 Abaixo estão listadas as queries:
 
 GetSku(sku: $Int, quantity: Int): SKU
@@ -129,7 +129,7 @@ GetUsers(email: $String): Users
 
 ## Mutations GraphQL
 
-Este aplicativo expõe Mutations GraphQL, [Veja mais detalhes aqui](/avanti-custom-apps-backend/docs/graphql/).
+Este aplicativo expõe Mutations GraphQL, [Veja mais detalhes aqui](/avanti-custom-apps-backend/docs/graphql.md).
 
 createProduct(product: $ProductInput): Product
 createUser(user: $UserInput): User
