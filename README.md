@@ -1,8 +1,8 @@
 # VTEX Store Documentation
 
-Esse é um repositório VTEX IO para a loja {loja}. Aqui podem ser encontrados tanto a própria loja quanto os apps custom feitos para adicionar funcionalidades exclusivas para os clientes Avanti.
+Esse é um repositório VTEX IO para a loja {loja}. Aqui podem ser encontradas tanto a própria loja quanto os apps custom feitos para adicionar funcionalidades exclusivas para os clientes Avanti.
 
-Essa é uma loja B2C.
+Tipo de loja: **B2C**.
 
 ## Sumário
 
@@ -17,10 +17,10 @@ Essa é uma loja B2C.
 
 Para desenvolver a loja desse repositório são necessários:
 
-- VTEX CLI (VTEX toolbelt)
 - Ambiente com workspace VTEX IO
-- Gerenciador de pacotes (**yarn** ou npm)
 - Conta VTEX
+- Gerenciador de pacotes (**yarn** ou npm)
+- VTEX CLI (VTEX toolbelt)
 
 ## Estrutura de pastas
 
@@ -49,7 +49,7 @@ Execute os seguintes comandos na CLI:
 
 ```
 vtex setup -i //Para remover dependendencias de workspace
-git push --set-upstream origin {branchName} //Define um upstram para o release
+git push --set-upstream origin {branchName} //Define um upstream para o release
 vtex release {releaseType} stable //Cria a tag da nova versão. O releaseType pode ser "patch", "minor" ou "major"
 vtex publish //Faz a publicação da nova versão, a partir daqui poderá rodar vtex install para essa nova versão em workspaces
 ```

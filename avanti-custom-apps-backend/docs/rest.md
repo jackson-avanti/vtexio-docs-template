@@ -1,6 +1,6 @@
 # Rotas REST
 
-Nesse documento serão detalhadas as Rotas REST existentes neste App, dividos por entidades.
+Nesse documento serão detalhadas as Rotas REST existentes neste App, dividas por entidades.
 
 ## Entidades
 
@@ -28,6 +28,7 @@ Example response:
     {
         "cpf": 00011122233,
         "email": "abc123@email.com",
+        "id": 1,
         "name": "João"
     }
   ]
@@ -39,6 +40,7 @@ Example response:
 | active   | boolean | false            |
 | cpf      | integer | 00011122233      |
 | email    | string  | abc123@email.com |
+| id       | number  | 1                |
 | name     | string  | João             |
 
 - **URL**: `/create-user`
@@ -73,6 +75,7 @@ Example response:
         "active": false,
         "cpf": 00011122233,
         "email": "abc123@email.com",
+        "id": 1,
         "name": "João"
     }
   ]
@@ -84,4 +87,5 @@ Example response:
 | active   | boolean | false            |
 | cpf      | integer | 00011122233      |
 | email    | string  | abc123@email.com |
+| id       | number  | 1                |
 | name     | string  | João             |
