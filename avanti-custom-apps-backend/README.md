@@ -80,7 +80,7 @@ Se esse candidato a release estiver estável, faça o deploy com o comando `vtex
 
 Estas são rotas expostas por este app. Podem ser chamadas por Apps frontend ou outros Apps backend. Estão em order alfabética, com a URL e exemplo de uso.
 
-_Para uma visão detalhada das requisições veja:_ [Rotas REST](/docs/rest.md)
+_Para uma visão detalhada das requisições veja:_ [Rotas REST](/avanti-custom-apps-backend/docs/rest.md)
 
 #### GET
 
