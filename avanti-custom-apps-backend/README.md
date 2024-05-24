@@ -11,9 +11,11 @@ Este é o diretório que contém os custom apps exclusivos de backend. São lóg
 - [Requisitos e Dependências](#requisitos-e-depend%C3%AAncias)
 - [Estrutura de pastas](#estrutura-de-pastas)
 - [Instalação](#instala%C3%A7%C3%A3o)
-- [Rotas REST](#rotas-rest)
 - [Release e deploy](#release-e-deploy)
-- [FAQ](#faq.md)
+- [Rotas REST](#rotas-rest)
+- [Queries GraphQL](#queries-graphql)
+- [Mutations GraphQL](#mutations-graphql)
+- [Lojas que já usaram esse App](#Llojas%20que%20j%C3%A1%20usaram%20esse%20app)
 
 ## Requisitos e Dependências
 
