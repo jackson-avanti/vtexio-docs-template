@@ -15,7 +15,7 @@ Este é o diretório que contém os custom apps exclusivos de backend. São lóg
 - [Rotas REST](#rotas-rest)
 - [Queries GraphQL](#queries-graphql)
 - [Mutations GraphQL](#mutations-graphql)
-- [Lojas que já usaram esse App](#Llojas%20que%20j%C3%A1%20usaram%20esse%20app)
+- [Lojas que já usaram esse App](#lojas-que-j%C3%A1-usaram-esse-app)
 
 ## Requisitos e Dependências
 
