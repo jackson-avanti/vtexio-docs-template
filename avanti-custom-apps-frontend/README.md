@@ -82,7 +82,7 @@ Lista com todos os componentes. A sua leitura é a seguinte:
 
 O link no nome do componente leva à documentação com detalhes de implementação e uso
 
-- [AddToCartButton](/avanti-custom-apps-frontend/docs/components/addtocartbutton.md): `avanti-add-to-cart-button`
+- [AddToCartButton](/avanti-custom-apps-frontend/docs/components/addToCartButton.md): `avanti-add-to-cart-button`
 - [CustomFaq](/avanti-custom-apps-frontend/docs/components/customfaq.md): `avanti-faq`
 - [RelatedShelf](/avanti-custom-apps-frontend/docs/components/relatedshelf.md): `avanti-related-shelf`
 
@@ -90,8 +90,8 @@ O link no nome do componente leva à documentação com detalhes de implementaç
 
 Lista de Hooks custom implementados.
 
-- [useDebounce](/avanti-custom-apps-frontend/docs/hooks/usedebounce.md) - Aguarda um determinado tempo após o usuário terminar de digitar em um input antes de executar a função onChange
-- [useFormatCurrency](/avanti-custom-apps-frontend/docs/hooks/useformatcurrency.md) - Disponibiliza um formatador de numeros para moeda
+- [useDebounce](/avanti-custom-apps-frontend/docs/hooks/useDebounce.md) - Aguarda um determinado tempo após o usuário terminar de digitar em um input antes de executar a função onChange
+- [useFormatCurrency](/avanti-custom-apps-frontend/docs/hooks/useFormatCurrency.md) - Disponibiliza um formatador de numeros para moeda
 
 #### Lojas que já usaram esse App:
 
