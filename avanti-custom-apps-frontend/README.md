@@ -11,8 +11,8 @@ Este é o diretório que contém os custom apps exclusivos de frontend. São hoo
 - [Estrutura de pastas](#estrutura-de-pastas)
 - [Instalação](#instala%C3%A7%C3%A3o)
 - [Release e deploy](#release-e-deploy)
-- [Componentes](componentes)
-- [Hooks](hooks)
+- [Componentes](#componentes)
+- [Hooks](#hooks)
 - [Lojas que já usaram esse App](#lojas-que-j%C3%A1-usaram-esse-app)
 
 ## Requisitos e Dependências
