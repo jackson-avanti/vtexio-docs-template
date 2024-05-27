@@ -8,7 +8,7 @@ Aguarda um determinado tempo após o usuário terminar de digitar em um input an
 
 #### Uso
 
-```json
+```
 //MyComponent.tsx
 
 const checkDistance = () => {

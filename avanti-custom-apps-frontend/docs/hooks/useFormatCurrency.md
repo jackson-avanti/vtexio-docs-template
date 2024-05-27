@@ -8,7 +8,7 @@ Disponibiliza um formatador de numeros para moeda.
 
 #### Uso
 
-```json
+```
 //MyComponent.tsx
 
 const checkDistance = () => {
@@ -20,4 +20,8 @@ const formatCurrency = useFormatCurrency()
 const formattedBundlePrice = formatCurrency(bundlePrice)
 ```
 
-O formatador retornará sempre uma `string`
+#### Retorno
+
+```json
+    value: string
+```
