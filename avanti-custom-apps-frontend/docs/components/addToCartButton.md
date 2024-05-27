@@ -1,6 +1,6 @@
 # AddToCartButton
 
-⬅️ [Readme](../README.md)
+⬅️ [Readme](../../README.md)
 
 #### O que é e para que é usado
 
