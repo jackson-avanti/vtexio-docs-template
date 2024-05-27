@@ -1,5 +1,7 @@
 # Rotas REST
 
+⬅️ [Readme](../README.md)
+
 Nesse documento serão detalhadas as Rotas REST existentes neste App, dividas por entidades.
 
 ## Entidades

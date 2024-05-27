@@ -67,8 +67,11 @@ Execute os seguintes comandos na CLI:
 
 ```
 vtex setup -i //Para remover dependendencias de workspace
+
 git push --set-upstream origin {branchName} //Define um upstream para o release
+
 vtex release {releaseType} stable //Cria a tag da nova versão. O releaseType pode ser "patch", "minor" ou "major"
+
 vtex publish //Faz a publicação da nova versão, a partir daqui poderá rodar vtex install para essa nova versão em workspaces
 ```
 
