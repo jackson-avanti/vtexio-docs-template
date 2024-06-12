@@ -77,7 +77,7 @@ Se esse candidato a release estiver estável, faça o deploy com o comando `vtex
 
 ## Componentes
 
-Lista com todos os componentes. A sua leitura é a seguinte:
+Lista com todos os componentes seguindo o padrão de leitura:
 `{nome do componente React}`: `{bloco para ser usado na store theme}`
 
 O link no nome do componente leva à documentação com detalhes de implementação e uso
